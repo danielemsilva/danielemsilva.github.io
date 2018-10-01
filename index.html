@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Meu perfil">
+  <meta name="author" content="DanieleSilva">
+
+  <title>Meu perfil</title>
+
+  <!-- Bootstrap core CSS -->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/creative.css" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+  
+  <link href="css/pagination.css" rel="stylesheet">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Início</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experiência</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Contribuições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white d-flex">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+            <h1>Olá, eu sou Daniele</h1>
+        </div>
+        <hr>
+        <div class="col-lg-8 mx-auto">
+          <p class="text-faded mb-5 sr-text-1">
+            Uma amante de programação desde os 14 anos. Atualmente, com <span id="age"></span>, estudo 
+            <a href="http://vempraufcg.cc/"><span class="focus">Ciência da Computação na UFCG</span></a>.  
+          </p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger sr-button-slow" href="#about">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading text-white">Meus likes</h2>
+          <hr class="light my-4">
+          <div class="board">
+            <div class="board-inner bg-white">
+              <ul class="nav nav-tabs" id="likesTab" role="tablist">
+                <div class="liner"></div>
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" 
+                  aria-controls="home" aria-selected="true">
+                    <span class="round-tabs one text-success sr-tab-1">
+                      <i class="fa fa-home"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="people-tab" data-toggle="tab" href="#people" role="tab" 
+                  aria-controls="people" aria-selected="false">
+                    <span class="round-tabs two text-warning sr-tab-2">
+                      <i class="fa fa-user"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" id="learn-tab" data-toggle="tab" href="#learn" role="tab" 
+                  aria-controls="learn" aria-selected="false">
+                    <span class="round-tabs three text-blue sr-tab-3">
+                      <i class="fa fa-pencil-alt"></i>
+                    </span>
+                  </a>
+                </li> 
+                <li>
+                  <a class="nav-link" id="meetup-tab" data-toggle="tab" href="#meetup" role="tab" 
+                  aria-controls="meetup" aria-selected="false">
+                    <span class="round-tabs four text-danger sr-tab-4">
+                      <i class="fa fa-comment-alt"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" id="list-tab" data-toggle="tab" href="#list" role="tab" 
+                  aria-controls="list" aria-selected="false">
+                    <span class="round-tabs five text-secondary sr-tab-5">
+                      <i class="fa fa-check"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" id="music-tab" data-toggle="tab" href="#music" role="tab" 
+                  aria-controls="music" aria-selected="false">
+                    <span class="round-tabs six text-info sr-tab-6">
+                      <i class="fa fa-music"></i>
+                    </span>
+                  </a>
+                </li>   
+              </ul>
+            </div>
+            <!-- Tabs with texts -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <h3 class="head text-center">Bem-vinda ao lar <span>♥</span></h3>
+                <p class="narrow text-center">
+                  Adoro uma boa refeição em família, o aconchego da minha casa, uma tarde de domingo.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="people" role="tabpanel" aria-labelledby="people-tab">
+                <h3 class="head text-center">Trabalho em equipe <span>★</span></h3>
+                <p class="narrow text-center">
+                  Gosto de galera animada, sorrisos bonitos, café na segunda.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="learn" role="tabpanel" aria-labelledby="learn-tab">
+                <h3 class="head text-center">Disso eu não sabia</h3>
+                <p class="narrow text-center">
+                  Não há nada mais bacana nessa área do que se deparar com algo novo e interessante e se jogar nisso!
+                </p>
+              </div>
+              <div class="tab-pane fade" id="meetup" role="tabpanel" aria-labelledby="meetup-tab">
+                <h3 class="head text-center">Tem evento?</h3>
+                <p class="narrow text-center">
+                  É legal encontrar pessoas com os mesmos interesses, toda a empolgação, troca de ideias e coffee-breaks.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab">
+                <h3 class="head text-center">Vou fazer uma lista <span>✓</span></h3>
+                <p class="narrow text-center">
+                    Lista de tarefas, supermercado, bagagem para viajar... Como é bom ter tudo organizado! ♥
+                </p>
+              </div>
+              <div class="tab-pane fade" id="music" role="tabpanel" aria-labelledby="music-tab">
+                <h3 class="head text-center">Fim de semana <span>♫</span></h3>
+                <p class="narrow text-center">
+                    Adoro uma caneca de chocolate quente em tempo de chuva, muitas playlists e filmes ♥
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+
+          <a class="btn btn-light btn-xl js-scroll-trigger sr-button-slow" href="#experience">Continuar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Experiência</h2>
+          <hr class="my-4">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="exp-box mt-5 mx-auto">
+            <i class="fas fa-4x fa-graduation-cap text-primary mb-3 sr-icon-1"></i>
+            <h3 class="mb-3">IFRN</h3>
+            <p class="text-muted mb-0">Formada em técnica em informática.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="exp-box mt-5 mx-auto">
+            <i class="fas fa-4x fa-laptop-code text-primary mb-3 sr-icon-2"></i>
+            <h3 class="mb-3">UFCG</h3>
+            <p class="text-muted mb-0">Graduanda em Ciência da Computação.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="exp-box mt-5 mx-auto">
+            <i class="fas fa-4x fa-code-branch text-primary mb-3 sr-icon-3"></i>
+            <h3 class="mb-3">EMBEDDED</h3>
+            <p class="text-muted mb-0">Aprendiz na capacitação Asus no laboratório Embedded.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="exp-box mt-5 mx-auto">
+            <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-4"></i>
+            <h3 class="mb-3">SPLAB</h3>
+            <p class="text-muted mb-0">Trabalho como desenvolvedora front-end.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-0" id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters popup-gallery">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="mb-4">Tenha acesso ao meu currículo</h2>
+      <a class="btn btn-light btn-xl sr-button" href="pdf/CV-20181001-DanieleSilva.pdf" download>Baixe aqui</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Vamos entrar em contato!</h2>
+          <hr class="my-4">
+          <p class="mb-5">Aqui está meu e-mail, até logo!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 sr-contact-1"></i>
+          <p>
+            <a href="mailto:daniele.silva@ccc.ufcg.edu.br">daniele.silva@ccc.ufcg.edu.br</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.js"></script>
+
+  <script>
+    function getAge(birthday_y, birthday_m, birthday_d) {
+      var current_date = new Date,
+          current_year = current_date.getFullYear(),
+          current_month = current_date.getMonth() + 1,
+          current_day = current_date.getDate(),
+
+          birthday_y = +birthday_y,
+          birthday_m = +birthday_m,
+          birthday_d = +birthday_d,
+
+          age = current_year - birthday_y;
+
+      if (current_month < birthday_m || current_month == birthday_m && current_day < birthday_d) {
+          age--;
+      }
+
+      return age < 0 ? 0 : age;
+    }
+
+    document.getElementById('age').textContent=getAge(1998, 10, 12);
+  </script>
+
+</body>
+
+</html>

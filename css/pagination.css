@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+.board {
+    margin-bottom: 8rem;
+    color: #fff;
+}
+.board .nav-tabs {
+    position: relative;
+    margin: 40px auto;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+.board > div.board-inner {
+    border-radius: 200px;
+}
+
+.board > div.board-inner .nav-tabs {
+    border: 0;
+}
+
+p.narrow {
+    width: 65%;
+    margin: 10px auto;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+}
+
+.liner {
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+#likesTab > li.active > a, #likesTab > li.active > a:hover, #likesTab > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.focus {
+    color: #f48260;
+}
+
+span.round-tabs {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: white;
+    z-index: 2;
+    position: relative;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+span.round-tabs.one {
+    border: 2px solid mediumseagreen;
+}
+
+li.active span.round-tabs.one{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+
+span.round-tabs.two{
+    border: 2px solid gold;
+}
+
+li.active span.round-tabs.two{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+
+span.round-tabs.three{
+    color: slateblue;
+    border: 2px solid mediumslateblue;
+}
+
+li.active span.round-tabs.three{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+
+span.round-tabs.four{
+    border: 2px solid rgb(234, 52, 39);
+}
+
+li.active span.round-tabs.four{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+
+span.round-tabs.five{
+    border: 2px solid #999;
+}
+
+li.active span.round-tabs.five{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+
+span.round-tabs.six{
+    border: 2px solid cadetblue;
+}
+
+li.active span.round-tabs.six{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+
+#likesTab > li.active > a span.round-tabs{
+    background: #fafafa;
+}
+
+#likesTab > li {
+    display: inline-block;
+    width: 16.5%;
+}
+
+#likesTab > li a {
+   width: 70px;
+   height: 70px;
+   margin: 20px auto;
+   border-radius: 100%;
+   padding: 0;
+   outline: 0;
+}
+
+#likesTab > li a:hover{
+    background: transparent;
+}
+
+.tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.tab-content .head { 
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+@media( max-width : 585px ){
+    
+    .board {
+        width: 90%;
+        height:auto !important;
+    }
+    
+    span.round-tabs {
+        font-size:16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .tab-content .head{
+        font-size:20px;
+    }
+    
+    .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height:50px;
+    }
+
+    .nav-tabs > li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+
+    .btn-outline-rounded {
+        padding:12px 20px;
+    }
+}
